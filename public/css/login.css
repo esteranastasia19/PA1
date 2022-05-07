@@ -1,0 +1,31 @@
+.login {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+    background: white(4, 29, 23, 0.5);
+    padding: 50px;
+
+    box-shadow: 0px 0px 25px 10px #ececec;
+    border-radius: 15px;
+}
+.btn {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 92.5%;
+    border-radius: 10px;
+}
+.bottom {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom a {
+    color: blue;
+    font-size: 15px;
+    text-decoration: none;
+}
+.bottom a:hover {
+    text-decoration: underline;
+}
